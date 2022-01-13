@@ -2,26 +2,57 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./asset/images/favicon-32x32.png">
   <title>Frontend Mentor | E-commerce product page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <!-- custom font added -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- font-awsome added -->
+  <script src="https://kit.fontawesome.com/73f6420c5b.js" crossorigin="anonymous"></script>
+
+  <!-- stylesheet link added -->
+  <link rel="stylesheet" href="./style/main.css">
+  <link rel="stylesheet" href="./style/nav-bar.css">
+
 </head>
 <body>
+  <header>
+    <div class="nav-bar-area">
+      <nav class="nav-bar flex-container">
+        <div class="nav-bar-left flex-item">
+          <span class="logo flex-tem"><img src="./asset/images/logo/logo.svg" alt="logo of this site"></span>
+          
+          <div class="flex-item">
+            <ul class="nav-items">
+              <li class="nav-item"><a href="" class="nav-link">Collections</a></li>
+              <li class="nav-item"><a href="" class="nav-link">Men</a></li>
+              <li class="nav-item"><a href="" class="nav-link">Women</a></li>
+              <li class="nav-item"><a href="" class="nav-link">About</a></li>
+              <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+         
+        <div class="nav-bar-right flex-item">
+          <span class="item-1 shopping-cart"><i class="fa-solid fa-cart-shopping"></i></span>
+          <span class="profile item-2">
+            <span class=" user-avater default-user"><i class="fa-solid fa-user"></i></span>
+            <span class="user-avater loged-in-user"><img src="./asset/images/profile-avater/image-avatar.png" alt=""></span>
+          </span>
+        </div>
+        
+      </nav>
+    </div>
+  </header>
 
-  Collections
-  Men
-  Women
-  About
-  Contact
+  <main>
 
+  </main>
+<!-- 
   Sneaker Company
 
   Fall Limited Edition Sneakers
@@ -39,6 +70,6 @@
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>

@@ -1,0 +1,35 @@
+:root {
+  /* color palet */
+  --primary-color: #C95F15;
+  --light-orange: #F19954;
+
+  --dark-blue: hsl(220, 14%, 75%);
+  --very-dark-blue: hsl(220, 13%, 13%);
+
+  --light-grayish-blue: hsl(223, 64%, 98%);
+  --dark-grayish-blue: hsl(219, 9%, 45%);
+  
+  --black-75op: hsl(0, 0%, 0%, 10%);
+  --background-color: #FFFFFF;
+
+  /* font */
+  --main-font: 'Kumbh Sans', sans-serif;
+}
+html {
+  font-size: 100%;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+  font-family: var(--main-font);
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
