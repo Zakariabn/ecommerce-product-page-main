@@ -1,7 +1,8 @@
 :root {
   /* color palet */
   --primary-color: #C95F15;
-  --light-orange: #F19954;
+  --light-orange: #F58531; 
+  --very-light-orange: #FFEFE1;
 
   --dark-blue: hsl(220, 14%, 75%);
   --very-dark-blue: hsl(220, 13%, 13%);
@@ -29,7 +30,12 @@ body {
   background-color: #fff;
   font-family: var(--main-font);
 }
+main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
 
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */

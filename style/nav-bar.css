@@ -3,6 +3,7 @@
   height: auto;
   display: flex;
   justify-content: center;
+  margin-bottom: 6.75rem;
 }
 .nav-bar {
   width: 100%;
@@ -40,6 +41,7 @@
   padding: 0 1rem;
   display: inline-flex;
   height: 135px;
+  font-size: 1.2rem;
   justify-content: center;
   align-self: center;
   border-radius: 4px;
